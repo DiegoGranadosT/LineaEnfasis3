@@ -1,0 +1,12 @@
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\bin\Debug\net6.0\Proyecto.Shared.deps.json
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\bin\Debug\net6.0\Proyecto.Shared.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\bin\Debug\net6.0\Proyecto.Shared.pdb
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.AssemblyInfoInputs.cache
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.AssemblyInfo.cs
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\refint\Proyecto.Shared.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\Proyecto.Shared.pdb
+C:\Users\diego\source\repos\Proyecto\Proyecto\Shared\obj\Debug\net6.0\ref\Proyecto.Shared.dll

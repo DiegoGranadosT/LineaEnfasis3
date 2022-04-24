@@ -1,0 +1,17 @@
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\Migrations.deps.json
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\Migrations.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\Migrations.pdb
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.AssemblyInfoInputs.cache
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.AssemblyInfo.cs
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\refint\Migrations.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.pdb
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\ref\Migrations.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\DataAccess.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\Proyecto.Shared.dll
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\diego\source\repos\Proyecto\Migrations\bin\Debug\net6.0\Proyecto.Shared.pdb
+C:\Users\diego\source\repos\Proyecto\Migrations\obj\Debug\net6.0\Migrations.csproj.CopyComplete

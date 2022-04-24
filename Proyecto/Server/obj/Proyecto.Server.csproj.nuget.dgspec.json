@@ -198,6 +198,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.10-dev.4, )"
             }
           },
           "imports": [
@@ -285,6 +289,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"

@@ -10,7 +10,12 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <MudButtonGroup Variant="Variant.Text">
+                <MudButton>Diego Camilo Granados Torres</MudButton>
+                <MudMenu Icon="@Icons.Material.Filled.ArrowDropDown">
+                    <MudMenuItem Href="/logout">Logout</MudMenuItem>
+                </MudMenu>
+            </MudButtonGroup>
         </div>
 
         <article class="content px-4">

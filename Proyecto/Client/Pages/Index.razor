@@ -1,9 +1,45 @@
 ﻿@page "/"
+@using MudBlazor
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<MudText Align="Align.Center" Typo="Typo.h3"></MudText>
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<MudPaper Class="d-flex align-stretch flex-grow-1 gap-4 mt-9" Elevation="0">
+    <MudPaper Class="py-4 d-flex flex-1">
+        <MudPaper Width="100%" Elevation="0">
+            <MudList>
+                <MudListItem Avatar="@Icons.Filled.WaterDrop" IconColor="Color.Secondary">
+                    <MudPaper Class="d-flex justify-space-between flex-grow-1 gap-2" Elevation="0">
+                        <span>Humedad</span>
+                        <span>5</span>
+                    </MudPaper>
+                </MudListItem>
+                <MudListItem Avatar="@Icons.Filled.DeviceThermostat" IconColor="Color.Warning">
+                    <MudPaper Class="d-flex justify-space-between flex-grow-1 gap-2" Elevation="0">
+                        <span>Temperatura</span>
+                        <span>5</span>
+                    </MudPaper>
+                </MudListItem>
+            </MudList>
+        </MudPaper>
+    </MudPaper>
+    <MudPaper Class="py-4 d-flex flex-1">
+        <MudPaper Width="100%"  Elevation="0">
+            <MudList>
+                <MudListItem Avatar="@Icons.Filled.WaterDrop" IconColor="Color.Secondary">
+                    <MudPaper Class="d-flex justify-space-between flex-grow-1 gap-2" Elevation="0">
+                        <span>Humedad</span>
+                        <span>5</span>
+                    </MudPaper>
+                </MudListItem>
+                <MudListItem Avatar="@Icons.Filled.DeviceThermostat" IconColor="Color.Warning">
+                    <MudPaper Class="d-flex justify-space-between flex-grow-1 gap-2" Elevation="0">
+                        <span>Temperatura</span>
+                        <span>5</span>
+                    </MudPaper>
+                </MudListItem>
+            </MudList>
+        </MudPaper>
+    </MudPaper>
+</MudPaper>

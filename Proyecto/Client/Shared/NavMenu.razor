@@ -1,12 +1,28 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using MudBlazor
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">Proyecto</a>
+        <a class="navbar-brand" href="">INCUBUS 2.0 RELOADED</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
-
+<MudDivider />
+<div style="height: 80px; display: flex; align-items: center; justify-content: center">
+    <div style="width:90%; display: flex; justify-content: space-between; color: white;">
+        <div>
+            <MudImage Width="70" Src="https://png.pngitem.com/pimgs/s/346-3468375_spiderman-mcu-ps4-selfie-hd-png-download.png" Elevation="25" Class="rounded-lg"/>
+        </div>
+        <div style="padding-top:10px; padding-left: 10px; font-weight: bold">DIEGO GRANADOS</div>
+        <div>
+            <MudMenu Icon="@Icons.Material.Filled.ArrowDropDown">
+                <MudMenuItem Href="/logout">Logout</MudMenuItem>
+            </MudMenu>
+        </div>
+    </div>
+</div>
+<MudDivider />
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
@@ -14,7 +30,7 @@
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+        <!--<div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
                 <span class="oi oi-plus" aria-hidden="true"></span> Counter
             </NavLink>
@@ -23,7 +39,7 @@
             <NavLink class="nav-link" href="fetchdata">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
-        </div>
+        </div>-->
     </nav>
 </div>
 

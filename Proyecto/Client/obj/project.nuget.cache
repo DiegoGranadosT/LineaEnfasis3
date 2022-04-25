@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x8aw7rQ+FdkSc12MdJRUhovV+EKnH94BUU16CqxUpEZHg/1tck61E0Q4rVGcPqOtwn6FZqwdOA7ogsKNmXehQw==",
+  "dgSpecHash": "C+6qGfiLi5I3OMw3BocqcJ5l7Xtw2YZYqTIKi6PO8/sGCOha/1w7tMMyaOpzG5whnIKg+cleBTkJOOl9vxTMIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\Proyecto.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\microsoft.aspnetcore.components.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.4\\microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512",
@@ -43,5 +44,16 @@
     "C:\\Users\\diego\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"M2Mqtt 4.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "M2Mqtt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

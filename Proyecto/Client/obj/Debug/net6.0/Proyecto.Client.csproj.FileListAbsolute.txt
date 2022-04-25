@@ -608,12 +608,9 @@ C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\Proyecto.C
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\Proyecto.Client.AssemblyInfo.cs
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\Proyecto.Client.csproj.CoreCompileInputs.cache
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\Proyecto.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\IMyuFqxh.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\g3HktXJf.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\M3DySn9A.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\+j8Hzy0h.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\3wWTyy2A.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\8GliFiws.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\g67ZUWE7.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\p5nXIzw2.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\np9Q7ZZj.gz
@@ -841,3 +838,14 @@ C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\X
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\RwRDJWeD.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\uxCkgg+7.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\uiloayMh.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\FzhpBN34.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\p07LXzQO.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\+9N9j+dQ.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\u0xFvigC.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\M2Mqtt.Net.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\M2Mqtt.Net.dll.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\M2Mqtt.Net.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\NdaiZkNx.gz

@@ -85,3 +85,5 @@ C:\Users\diego\source\repos\Proyecto\Proyecto\Server\bin\Debug\net6.0\System.Ide
 C:\Users\diego\source\repos\Proyecto\Proyecto\Server\obj\Debug\net6.0\Proyecto.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\diego\source\repos\Proyecto\Proyecto\Server\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\diego\source\repos\Proyecto\Proyecto\Server\bin\Debug\net6.0\MediatR.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Server\bin\Debug\net6.0\M2Mqtt.Net.dll
+C:\Users\diego\source\repos\Proyecto\Proyecto\Server\bin\Debug\net6.0\MudBlazor.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "txxpYEdWX7N+zXggdu4jaXLi3ZnvMmGDPZT4fZw2wvU=",
+  "Hash": "61BCgcuIOQdYxV6HLAJtkDm+1A7kIaPO1rNh5n7BVfA=",
   "Source": "Proyecto.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,57 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.css"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Proyecto.Client",
@@ -187,6 +238,23 @@
       "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/M2Mqtt.Net.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\m2mqtt\\4.3.0\\lib\\net45\\M2Mqtt.Net.dll"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -201,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -218,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -286,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.3\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.4\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -729,6 +797,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -3536,6 +3621,23 @@
       "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\+9N9j+dQ.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\+afCExoj.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -4267,23 +4369,6 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.dll"
     },
     {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\8GliFiws.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\8UFlnF8n.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -4862,6 +4947,23 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Metadata.dll"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\FzhpBN34.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\g0PRUg7n.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -4877,23 +4979,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Overlapped.dll"
-    },
-    {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\g3HktXJf.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\g4aIqkaL.gz",
@@ -5302,23 +5387,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
-    },
-    {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\IMyuFqxh.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\IN21Ywlg.gz",
@@ -5780,6 +5848,23 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Buffers.dll"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\NdaiZkNx.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/M2Mqtt.Net.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\nF8UAlMb.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -5931,6 +6016,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebProxy.dll"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\p07LXzQO.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\P3rY792X.gz",
@@ -6560,6 +6662,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.dll"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\u0xFvigC.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\u1DWOu74.gz",

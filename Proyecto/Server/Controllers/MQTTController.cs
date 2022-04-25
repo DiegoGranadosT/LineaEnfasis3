@@ -8,21 +8,83 @@ namespace Proyecto.Server.Controllers
     [ApiController]
     public class MQTTController : ControllerBase
     {
+        public readonly string broker = "broker.emqx.io";
+        public readonly int port = 1883;
+        public readonly string clientId = Guid.NewGuid().ToString();
+        public readonly string username = "emqx";
+        public readonly string password = "public";
 
-        [HttpGet]
-        public async Task<ActionResult> Get()
+        [HttpGet("temperatura")]
+        public async Task<ActionResult> GetTemperatura1()
         {
-            string broker = "broker.emqx.io";
-            int port = 1883;
-            string topic = "incubus/message";
-            string clientId = Guid.NewGuid().ToString();
-            string username = "emqx";
-            string password = "public";
+            string topic = "incubusget/temperatura_1";
+
             MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
             Subscribe(client, topic);
-            Publish(client, topic);
             return Ok();
         }
+
+        [HttpGet("humedad")]
+        public async Task<ActionResult> GetOrden()
+        {
+            string topic = "incubusget/humedad_1";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+            Subscribe(client, topic);
+            return Ok();
+        }
+
+        [HttpGet("estado/agua")]
+        public async Task<ActionResult> GetEstadoAgua()
+        {
+            string topic = "incubusget/estado_1";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+            Subscribe(client, topic);
+            return Ok();
+        }
+
+        [HttpGet("estado/ventilador")]
+        public async Task<ActionResult> GetEstadoVentilador()
+        {
+            string topic = "incubusget/estado_2";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+            Subscribe(client, topic);
+            return Ok();
+        }
+
+        [HttpGet("estado/nivelAgua")]
+        public async Task<ActionResult> GetEstadonivelAgua()
+        {
+            string topic = "incubusget/estado_3";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+
+            Subscribe(client, topic);
+            return Ok();
+        }
+
+        [HttpPut("ventilador/{estado}")]
+        public async Task<ActionResult> PutVentilador(bool estado)
+        {
+            string topic = "incubuspush/ventilador";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+            var a = estado.GetHashCode().ToString();
+            return Ok(client.Publish(topic, System.Text.Encoding.UTF8.GetBytes(estado.GetHashCode().ToString())));
+        }
+
+        [HttpPut("bomba/{estado}")]
+        public async Task<ActionResult> PutBomba(bool estado) 
+        {
+            string topic = "incubuspush/bomba";
+
+            MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
+
+            return Ok(client.Publish(topic, System.Text.Encoding.UTF8.GetBytes(estado.GetHashCode().ToString())));
+        }
+
 
         public static MqttClient ConnectMQTT(string broker, int port, string clientId, string username, string password)
         {
@@ -39,9 +101,9 @@ namespace Proyecto.Server.Controllers
             return client;
         }
 
-        public static void Publish(MqttClient client, string topic)
+        public void Publish(MqttClient client, string topic)
         {
-            int msg_count = 0;
+            int msg_count = 25;
             System.Threading.Thread.Sleep(1 * 1000);
             string msg = "messages: " + msg_count.ToString();
             client.Publish(topic, System.Text.Encoding.UTF8.GetBytes(msg));
@@ -55,6 +117,7 @@ namespace Proyecto.Server.Controllers
         {
             client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
             client.Subscribe(new string[] { topic }, new byte[] { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE });
+
         }
         public static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {

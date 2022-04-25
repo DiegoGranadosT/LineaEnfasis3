@@ -857,6 +857,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "M2Mqtt": "4.3.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3",
           "MudBlazor": "6.0.10-dev.4",
           "Proyecto.Shared": "1.0.0"

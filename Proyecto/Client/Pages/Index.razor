@@ -1,56 +1,13 @@
 ﻿@page "/"
-<<<<<<< HEAD
-@using uPLibrary.Networking.M2Mqtt
-@using uPLibrary.Networking.M2Mqtt.Messages
-=======
+
 @using MudBlazor
->>>>>>> ad70528b63d462b276a87210901392ac84edafcf
 
 <PageTitle>Home</PageTitle>
 
 <MudText Align="Align.Center" Typo="Typo.h3"></MudText>
 
-<<<<<<< HEAD
 <h1>@data</h1>
 
-
-@code {
-    public string data = "Toy solo";
-
-    string broker = "broker.emqx.io";
-    int port = 1883;
-    string topic = "incubusget/temperatura_1";
-    string clientId = Guid.NewGuid().ToString();
-    // If the broker requires authentication, set the username and password
-    string username = "emqx";
-    string password = "public";
-
-    protected override void OnInitialized()
-    {
-        MqttClient client = ConnectMQTT(broker, port, clientId, username, password);
-        Subscribe(client, topic);
-        base.OnInitialized();
-    }
-
-    MqttClient ConnectMQTT(string broker, int port, string clientId, string username, string password)
-    {
-        MqttClient client = new MqttClient(broker, port, false, MqttSslProtocols.None, null, null);
-        client.Connect(clientId, username, password);
-        return client;
-
-    }
-
-    void Subscribe(MqttClient client, string topic)
-    {
-        client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
-        client.Subscribe(new string[] { topic }, new byte[] { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE });
-    }
-    void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
-    {
-        data = System.Text.Encoding.Default.GetString(e.Message);
-    }
-}
-=======
 <MudPaper Class="d-flex align-stretch flex-grow-1 gap-4 mt-9" Elevation="0">
     <MudPaper Class="py-4 d-flex flex-1">
         <MudPaper Width="100%" Elevation="0">
@@ -71,7 +28,7 @@
         </MudPaper>
     </MudPaper>
     <MudPaper Class="py-4 d-flex flex-1">
-        <MudPaper Width="100%"  Elevation="0">
+        <MudPaper Width="100%" Elevation="0">
             <MudList>
                 <MudListItem Avatar="@Icons.Filled.WaterDrop" IconColor="Color.Secondary">
                     <MudPaper Class="d-flex justify-space-between flex-grow-1 gap-2" Elevation="0">
@@ -89,4 +46,8 @@
         </MudPaper>
     </MudPaper>
 </MudPaper>
->>>>>>> ad70528b63d462b276a87210901392ac84edafcf
+
+
+@code {
+    public string data = "Toy solo";
+}

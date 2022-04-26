@@ -111,7 +111,7 @@
           "Microsoft.AspNetCore.Components": "6.0.4",
           "Microsoft.AspNetCore.Components.Forms": "6.0.3",
           "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.3.22175.4",
-          "Microsoft.JSInterop": "6.0.3",
+          "Microsoft.JSInterop": "6.0.4",
           "System.IO.Pipelines": "6.0.2"
         },
         "runtime": {
@@ -127,7 +127,7 @@
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
           "Microsoft.Extensions.Logging": "7.0.0-preview.3.22175.4",
-          "Microsoft.JSInterop.WebAssembly": "6.0.3"
+          "Microsoft.JSInterop.WebAssembly": "6.0.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
@@ -411,22 +411,22 @@
           }
         }
       },
-      "Microsoft.JSInterop/6.0.3": {
+      "Microsoft.JSInterop/6.0.4": {
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12401"
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
-      "Microsoft.JSInterop.WebAssembly/6.0.3": {
+      "Microsoft.JSInterop.WebAssembly/6.0.4": {
         "dependencies": {
-          "Microsoft.JSInterop": "6.0.3"
+          "Microsoft.JSInterop": "6.0.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {
-            "assemblyVersion": "6.0.3.0",
-            "fileVersion": "6.0.322.12401"
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.422.17204"
           }
         }
       },
@@ -627,8 +627,8 @@
       },
       "Proyecto.Client/1.0.0": {
         "dependencies": {
-          "M2Mqtt": "4.3.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3",
+          "Microsoft.JSInterop.WebAssembly": "6.0.4",
           "MudBlazor": "6.0.10-dev.4",
           "Proyecto.Shared": "1.0.0"
         },
@@ -940,19 +940,19 @@
       "path": "microsoft.identitymodel.tokens/6.10.0",
       "hashPath": "microsoft.identitymodel.tokens.6.10.0.nupkg.sha512"
     },
-    "Microsoft.JSInterop/6.0.3": {
+    "Microsoft.JSInterop/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3QCDEyxcjhfQQeGRGtJFP4F8ne4D6Gf2w1nkdQCRy79yzSGHcoUbBkziVVmoppRbipIh9ickyHD7wXB+m0GiIw==",
-      "path": "microsoft.jsinterop/6.0.3",
-      "hashPath": "microsoft.jsinterop.6.0.3.nupkg.sha512"
+      "sha512": "sha512-ul/BI4XudxeR1JROdq0FnMTT1YAN74q2iGeeWAzabuYyFVHtxVa8j+cYE+0KphS0c0+JkSupKCQRjhZsDw5NUg==",
+      "path": "microsoft.jsinterop/6.0.4",
+      "hashPath": "microsoft.jsinterop.6.0.4.nupkg.sha512"
     },
-    "Microsoft.JSInterop.WebAssembly/6.0.3": {
+    "Microsoft.JSInterop.WebAssembly/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4B7RdZ01eKShey9MllKrVjEJZN/Y1Hvku/qTwVKSwt/n+KgFmyYEkEMbSdKDWB7MbvCPZykCQbkKnKfLzML9sg==",
-      "path": "microsoft.jsinterop.webassembly/6.0.3",
-      "hashPath": "microsoft.jsinterop.webassembly.6.0.3.nupkg.sha512"
+      "sha512": "sha512-+EZnnpxDfHwFwxJY9IifDH4sXdh4uKvHjEeTkZT+vBr1YC4FCzempsEwmGFH5SGMZqz+VghbuVY1Dc1Jxtgycw==",
+      "path": "microsoft.jsinterop.webassembly/6.0.4",
+      "hashPath": "microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",

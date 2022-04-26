@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "61BCgcuIOQdYxV6HLAJtkDm+1A7kIaPO1rNh5n7BVfA=",
+  "Hash": "0L5ki2uGv8q5zoMBnkdUxjWdcqSYszKL9OxrzqBDlJo=",
   "Source": "Proyecto.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -236,23 +236,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/M2Mqtt.Net.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\m2mqtt\\4.3.0\\lib\\net45\\M2Mqtt.Net.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -694,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.3\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -711,7 +694,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.3\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.4\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -3808,6 +3791,23 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.dll"
     },
     {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\0RNypoUL.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\0Yvmd6Wy.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -5236,23 +5236,6 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
     },
     {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\hMEj12M7.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
-    },
-    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\htrcvS+E.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -5846,23 +5829,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Buffers.dll"
-    },
-    {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\NdaiZkNx.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/M2Mqtt.Net.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\M2Mqtt.Net.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\nF8UAlMb.gz",
@@ -6596,23 +6562,6 @@
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
     },
     {
-      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\tcK1DVTm.gz",
-      "SourceId": "Proyecto.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\tkp+Fe8T.gz",
       "SourceId": "Proyecto.Client",
       "SourceType": "Computed",
@@ -6849,6 +6798,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.dll"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\wV178iOy.gz",
+      "SourceId": "Proyecto.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\obj\\Debug\\net6.0\\build-gz\\wwn2YqPf.gz",

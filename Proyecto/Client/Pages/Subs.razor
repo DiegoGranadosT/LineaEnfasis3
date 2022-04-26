@@ -1,0 +1,111 @@
+﻿@page "/suscribe"
+@using Proyecto.Shared
+@using Proyecto.Client.JsInterop
+@inject HttpClient Http
+
+@inject MqttJsInterop mqttInterop
+
+<div class="container">
+    <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5">
+            <button class="btn btn-primary btn-sm" @onclick="@CreateClientAndConnect" disabled="@(IsDisabled)">Connect</button>
+            <button class="btn btn-danger btn-sm" @onclick="@Disconnect" disabled="@(!IsDisabled)">Disconnect</button>
+        </div>
+    </div>
+    <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5">
+            <p>Connection Status: <strong>@ConnectionStatus</strong></p>
+        </div>
+    </div>
+    <div class="row">
+        @if (rabbitData == null && rabbitData?.Count != 0)
+        {
+            <p><em>Awaiting data...</em></p>
+        }
+        else
+        {
+            <table class="table">
+                <tbody>
+                    @foreach (var data in rabbitData)
+                    {
+                        <tr>
+                            <td width="100px">@data.Received</td>
+                            <td>@data.Data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@code {
+
+    private const string _rabbitMQHost = "broker.emqx.io";
+    private const int _rabbitMQPort = 1883;
+
+    private const string _rabbitMQUsername = "emqx";
+    private const string _rabbitMQPassword = "public";
+    private const string _topic = "incubusget/temperatura_1";
+
+    private List<PayloadData> rabbitData { get; set; }
+    protected string ConnectionStatus { get; set; }
+    protected string Name { get; set; } = $"User1";
+    protected bool IsDisabled { get; set; }
+    protected string Message { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ConnectionStatus = "Not connected";
+
+        Proyecto.Client.JsInterop.OnConnectionChanged.Action = value =>
+        {
+            ConnectionStatus = $"{value}";
+            this.StateHasChanged();
+        };
+
+
+        Proyecto.Client.JsInterop.OnMessageReceived.Action = (key, data) =>
+        {
+            if (rabbitData == null)
+            {
+                rabbitData = new List<PayloadData>();
+            }
+
+            var rabbitDataItem = new PayloadData(key, data);
+            rabbitData.Insert(0, rabbitDataItem);
+
+            this.StateHasChanged();
+        };
+    }
+
+    public void CreateClientAndConnect()
+    {
+        IsDisabled = true;
+        this.StateHasChanged();
+
+        mqttInterop.CreateClient(wsHost: _rabbitMQHost, wsPort: _rabbitMQPort, clientId: Name);
+        mqttInterop.Connect(topic: _topic, qos: 0, timeout: 1, username: _rabbitMQUsername, password: _rabbitMQPassword);
+    }
+
+    public void Disconnect()
+    {
+        mqttInterop.Disconnect();
+        IsDisabled = false;
+        this.StateHasChanged();
+    }
+
+    class PayloadData
+    {
+        public string Key { get; set; }
+        public string Data { get; set; }
+        public string Received { get; set; }
+
+        public PayloadData(string key, string data)
+        {
+            this.Key = key;
+            this.Data = data;
+            this.Received = DateTime.Now.ToString("HH:mm:ss");
+        }
+    }
+}

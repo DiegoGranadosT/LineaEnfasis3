@@ -540,7 +540,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.JSInterop/6.0.3": {
+      "Microsoft.JSInterop/6.0.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.JSInterop.dll": {}
@@ -549,10 +549,10 @@
           "lib/net6.0/Microsoft.JSInterop.dll": {}
         }
       },
-      "Microsoft.JSInterop.WebAssembly/6.0.3": {
+      "Microsoft.JSInterop.WebAssembly/6.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.JSInterop": "6.0.3"
+          "Microsoft.JSInterop": "6.0.4"
         },
         "compile": {
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {}
@@ -857,8 +857,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "M2Mqtt": "4.3.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.3",
+          "Microsoft.JSInterop.WebAssembly": "6.0.4",
           "MudBlazor": "6.0.10-dev.4",
           "Proyecto.Shared": "1.0.0"
         },
@@ -1818,10 +1818,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.JSInterop/6.0.3": {
-      "sha512": "3QCDEyxcjhfQQeGRGtJFP4F8ne4D6Gf2w1nkdQCRy79yzSGHcoUbBkziVVmoppRbipIh9ickyHD7wXB+m0GiIw==",
+    "Microsoft.JSInterop/6.0.4": {
+      "sha512": "ul/BI4XudxeR1JROdq0FnMTT1YAN74q2iGeeWAzabuYyFVHtxVa8j+cYE+0KphS0c0+JkSupKCQRjhZsDw5NUg==",
       "type": "package",
-      "path": "microsoft.jsinterop/6.0.3",
+      "path": "microsoft.jsinterop/6.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1829,14 +1829,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.JSInterop.dll",
         "lib/net6.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.6.0.3.nupkg.sha512",
+        "microsoft.jsinterop.6.0.4.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
-    "Microsoft.JSInterop.WebAssembly/6.0.3": {
-      "sha512": "4B7RdZ01eKShey9MllKrVjEJZN/Y1Hvku/qTwVKSwt/n+KgFmyYEkEMbSdKDWB7MbvCPZykCQbkKnKfLzML9sg==",
+    "Microsoft.JSInterop.WebAssembly/6.0.4": {
+      "sha512": "+EZnnpxDfHwFwxJY9IifDH4sXdh4uKvHjEeTkZT+vBr1YC4FCzempsEwmGFH5SGMZqz+VghbuVY1Dc1Jxtgycw==",
       "type": "package",
-      "path": "microsoft.jsinterop.webassembly/6.0.3",
+      "path": "microsoft.jsinterop.webassembly/6.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1844,7 +1844,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll",
         "lib/net6.0/Microsoft.JSInterop.WebAssembly.xml",
-        "microsoft.jsinterop.webassembly.6.0.3.nupkg.sha512",
+        "microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512",
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },

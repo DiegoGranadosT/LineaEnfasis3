@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mrXH9a+cEBhjdEeCPsIhF58ghHAuCcNVWB3l1Di6wxK8Oq5L5QFpL1eOw95yRAK9wmsLhnUxgKmbJjd+V+pwpA==",
+  "dgSpecHash": "KPUpkTSvJMWblyZ4qjI/QFnSJarK12iLb9rUPyLD9JEmazYTQ1WdXpsMfZiSfnmznQZykmgUa7F/txyirRz91g==",
   "success": true,
   "projectFilePath": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Server\\Proyecto.Server.csproj",
   "expectedPackageFiles": [
@@ -45,8 +45,8 @@
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
-    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.3\\microsoft.jsinterop.6.0.3.nupkg.sha512",
-    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.3\\microsoft.jsinterop.webassembly.6.0.3.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\microsoft.jsinterop.6.0.4.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.4\\microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\mudblazor.6.0.10-dev.4.nupkg.sha512",

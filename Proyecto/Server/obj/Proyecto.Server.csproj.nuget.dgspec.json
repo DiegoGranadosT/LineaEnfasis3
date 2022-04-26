@@ -190,10 +190,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "M2Mqtt": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.3, )"
@@ -202,6 +198,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.JSInterop.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "MudBlazor": {
               "target": "Package",

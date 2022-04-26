@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C+6qGfiLi5I3OMw3BocqcJ5l7Xtw2YZYqTIKi6PO8/sGCOha/1w7tMMyaOpzG5whnIKg+cleBTkJOOl9vxTMIA==",
+  "dgSpecHash": "CktjU+mdvigUb0mQJt24KgfSVu0RvE8EWGhk6RBqv4y9CQDbbgy48ri5Bo8AK3jh/aYggOaWbg5Dy1LdWmInGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\diego\\source\\repos\\Proyecto\\Proyecto\\Client\\Proyecto.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
-    "C:\\Users\\diego\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\microsoft.aspnetcore.components.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.4\\microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512",
@@ -33,8 +32,8 @@
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-preview.3.22175.4\\microsoft.extensions.logging.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-preview.3.22175.4\\microsoft.extensions.options.7.0.0-preview.3.22175.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-preview.3.22175.4\\microsoft.extensions.primitives.7.0.0-preview.3.22175.4.nupkg.sha512",
-    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.3\\microsoft.jsinterop.6.0.3.nupkg.sha512",
-    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.3\\microsoft.jsinterop.webassembly.6.0.3.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\microsoft.jsinterop.6.0.4.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.4\\microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\mudblazor\\6.0.10-dev.4\\mudblazor.6.0.10-dev.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\system.collections.immutable\\7.0.0-preview.3.22175.4\\system.collections.immutable.7.0.0-preview.3.22175.4.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.0-preview.3.22175.4\\system.diagnostics.diagnosticsource.7.0.0-preview.3.22175.4.nupkg.sha512",
@@ -44,16 +43,5 @@
     "C:\\Users\\diego\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"M2Mqtt 4.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "M2Mqtt",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

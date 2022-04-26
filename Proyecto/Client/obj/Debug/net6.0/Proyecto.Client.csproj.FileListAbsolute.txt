@@ -619,8 +619,6 @@ C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\2
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\3efUw8Yy.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\fFAFgsTn.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\lhDmkaN9.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\tcK1DVTm.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\hMEj12M7.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\i7BjIVz8.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\yEIv2Q7g.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\rmgJ6dcp.gz
@@ -845,7 +843,5 @@ C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\F
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\p07LXzQO.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\+9N9j+dQ.gz
 C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\u0xFvigC.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\M2Mqtt.Net.dll
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\wwwroot\_framework\M2Mqtt.Net.dll.gz
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\bin\Debug\net6.0\M2Mqtt.Net.dll
-C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\NdaiZkNx.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\wV178iOy.gz
+C:\Users\diego\source\repos\Proyecto\Proyecto\Client\obj\Debug\net6.0\build-gz\0RNypoUL.gz
